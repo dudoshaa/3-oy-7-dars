@@ -52,13 +52,27 @@ body {
   font-size: 15px;
   font-weight: 600;
   line-height: 25px;
+  background-color: #014e56;
   color: #fff;
 }
+
+h1 {
+  margin: 0;
+}
+
 main {
   flex-grow: 1;
 }
+
 #activ {
   color: #f67e7e;
+}
+.orange-text {
+  color: #f67e7e;
+}
+
+.aquarium-text {
+  color: #79c8c7;
 }
 
 .container {
@@ -104,8 +118,8 @@ main {
     background-color: #79c8c7;
   }
 }
+
 .header {
-  background-color: #014e56;
   padding-top: 73px;
   padding-bottom: 73px;
 }
@@ -136,9 +150,15 @@ main {
   line-height: 28px;
   color: #fff;
 
-  &:hover{
+  &:hover {
     color: #f67e7e;
   }
+}
+
+.divider {
+  display: inline-block;
+  width: 50px;
+  height: 4px;
 }
 
 .footer {
@@ -191,10 +211,10 @@ main {
   display: flex;
   gap: 40px;
 }
-.footer__pages__link{
+.footer__pages__link {
   color: #fff;
 
-  &:hover{
+  &:hover {
     color: #f67e7e;
   }
 }
@@ -205,7 +225,7 @@ main {
 .footer__info {
   margin-right: auto;
 
-  p{
+  p {
     opacity: 0.6;
   }
 }

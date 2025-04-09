@@ -1,5 +1,151 @@
 @import "./normalize.css";
 @import "./main.css";
+.hero {
+  padding-top: 56px;
+  padding-bottom: 250px;
+  background-image: url(../images/bg-pattern-home-2.svg),
+    url(../images/bg-pattern-home-1.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right 165px, top 50px left -100px;
+}
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.hero__container__title {
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px;
+  letter-spacing: 0px;
+}
 
+.hero__description {
+  width: 445px;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  line-height: 28px;
+}
+.hero__description__text {
+}
+.hero-divider {
+  margin-bottom: 79px;
+  background-color: #79c8c7;
+}
 
+.features {
+  padding-top: 198px;
+  padding-bottom: 140px;
+  background-color: #012f34;
+  background-image: url(../images/bg-pattern-home-3.svg);
+  background-repeat: no-repeat;
+  background-position: bottom  right -100px ;
+}
+.features__container {
+  display: flex;
+}
+.features__content {
+  width: 445px;
+  margin-right: 220px;
+}
+.features-divider {
+  margin-bottom: 54px;
+  background-color: #f67e7e;
+}
+
+.features_-title {
+  display: flex;
+
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  width: 445px;
+}
+.features__list {
+
+  margin-bottom: 30px;
+}
+
+.features__item{
+  display: flex;
+  margin-bottom: 32px;
+}
+.features__image{
+ margin-right: 23px;
+}
+.features__item--title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f67e7e;
+  margin-bottom: 16px;
+}
+.features__item--description {
+  width: 445px;
+  opacity: 0.8;
+}
+
+.testemonials {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: #004047;
+  background-image: url(../images/bg-pattern-home-4-about-3.svg),
+    url(../images/bg-pattern-home-5.svg);
+  background-repeat: no-repeat;
+  background-position: top  left, bottom right;
+
+  i {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0px;
+    display: inline-block;
+    margin-bottom: 32px;
+  }
+}
+.testemonials__container {
+}
+
+.testemonials__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  width: 932px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 56px;
+}
+
+.testtemonials-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.testemonials-item {
+  background-image: url(../images/icon-quotes.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 36px;
+  width: 350px;
+}
+
+.testemonials-description {
+  margin-bottom: 24px;
+}
+.testemonials-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #79c8c7;
+  margin-bottom: 2px;
+}
+
+.testemonials-avatar {
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px solid #c4fffe;
+  border-radius: 50%;
+}
