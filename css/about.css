@@ -77,6 +77,14 @@
 }
 .directors__item:last-child {
   background-color: #002529;
+
+  .directors__btn {
+    background-color: #79c8c7;
+    
+     &:hover {
+      background-color: #f67e7e;
+    }
+  }
 }
 
 .director__avatar {
@@ -118,6 +126,7 @@
     background-color: #79c8c7;
   }
 }
+
 .directors__description {
   width: 254px;
   text-align: center;
