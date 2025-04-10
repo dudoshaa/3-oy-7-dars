@@ -41,7 +41,7 @@
   background-color: #012f34;
   background-image: url(../images/bg-pattern-home-3.svg);
   background-repeat: no-repeat;
-  background-position: bottom  right -100px ;
+  background-position: bottom right -100px;
 }
 .features__container {
   display: flex;
@@ -64,16 +64,18 @@
   width: 445px;
 }
 .features__list {
-
+  margin-top: 58px;
   margin-bottom: 30px;
 }
 
-.features__item{
+.features__item {
   display: flex;
   margin-bottom: 32px;
 }
-.features__image{
- margin-right: 23px;
+.features__image {
+  display: flex;
+  align-items: center;
+  margin-right: 23px;
 }
 .features__item--title {
   font-weight: 700;
@@ -94,7 +96,7 @@
   background-image: url(../images/bg-pattern-home-4-about-3.svg),
     url(../images/bg-pattern-home-5.svg);
   background-repeat: no-repeat;
-  background-position: top  left, bottom right;
+  background-position: top left, bottom right;
 
   i {
     font-weight: 500;
@@ -142,6 +144,7 @@
   color: #79c8c7;
   margin-bottom: 2px;
 }
+
 
 .testemonials-avatar {
   margin-right: auto;

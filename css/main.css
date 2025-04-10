@@ -237,6 +237,11 @@ main {
   right: 0;
 }
 .footer__social__links {
+
+  &:hover svg path{
+    fill: #f67e7e;
+
+  }
 }
 .social__icon {
 }
